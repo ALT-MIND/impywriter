@@ -10,3 +10,8 @@
 '  /dev/nvme0n1         Union Memory (Shenzhen) Disk'
 >>> 
 >>> 
+>>> t ={}
+>>> t.update({str(1): a[1]})
+>>> t.update({str(2): a[0]})
+>>> t
+{'1': ' Union Memory (Shenzhen) Disk', '2': '/dev/nvme0n1'}
